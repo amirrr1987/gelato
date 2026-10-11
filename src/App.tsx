@@ -1,10 +1,13 @@
+import Layout from "./layouts"
 
 const App = () => {
 
   return (
-    <div className='bg-red-500'>
-      سلبام
-    </div>
+    <Layout>
+      <div className='bg-red-500'>
+        سلبامsdfsdfsdfsdfsfd
+      </div>
+    </Layout>
   )
 }
 
