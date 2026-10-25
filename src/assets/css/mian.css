@@ -2,4 +2,30 @@
 
 @theme {
     --font-sans: 'Vazirmatn', sans-serif;
+
+
+    --color-primary-50:  oklch(.984 .014 180.72);
+    --color-primary-100: oklch(.953 .051 180.801);
+    --color-primary-200: oklch(.905 .093 164.15);
+    --color-primary-300: oklch(.855 .138 181.071);
+    --color-primary-400: oklch(.777 .152 181.912);
+    --color-primary-500: oklch(.704 .14 182.503);
+    --color-primary-600: oklch(.6 .118 184.704);
+    --color-primary-700: oklch(.511 .096 186.391);
+    --color-primary-800: oklch(.437 .078 188.216);
+    --color-primary-900: oklch(.386 .063 188.416);
+    --color-primary-950: oklch(.277 .046 192.524);
+
+
+    --color-secondary-50:  oklch(.987 .022 95.277);
+    --color-secondary-100: oklch(.962 .059 95.617);
+    --color-secondary-200: oklch(.924 .12 95.746);
+    --color-secondary-300: oklch(.879 .169 91.605);
+    --color-secondary-400: oklch(.828 .189 84.429);
+    --color-secondary-500: oklch(.769 .188 70.08);
+    --color-secondary-600: oklch(.666 .179 58.318);
+    --color-secondary-700: oklch(.555 .163 48.998);
+    --color-secondary-800: oklch(.473 .137 46.201);
+    --color-secondary-900: oklch(.414 .112 45.904);
+    --color-secondary-950: oklch(.279 .077 45.635);
 }

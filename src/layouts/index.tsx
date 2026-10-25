@@ -5,11 +5,11 @@ import TheMain from "./TheMain"
 
 const Layout: React.FC<React.PropsWithChildren> = ({ children }) => {
     return (
-        <>
+        <div className="bg-gray-50 min-h-screen">
             <TheHeader />
             <TheMain children={children} />
             <TheFooter />
-        </>
+        </div>
     )
 }
 
