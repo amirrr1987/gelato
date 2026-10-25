@@ -1,4 +1,4 @@
-import type { ButtonHTMLAttributes, PropsWithChildren, ReactNode } from "react";
+import type { ButtonHTMLAttributes, FC, PropsWithChildren, ReactNode } from "react";
 
 type ButtonVariant = "fill" | "outline" | "text";
 
@@ -41,7 +41,7 @@ const roundeds = {
     lg: "rounded-3xl",
 } as const;
 
-export const Button = ({
+export const Button: FC<ButtonProps> = ({
     variant = "fill",
     color = "primary",
     type = "button",
@@ -51,7 +51,7 @@ export const Button = ({
     icon,
     children,
     ...rest
-}: ButtonProps) => {
+}) => {
     const classes = `
     ${baseClasses}
     ${colors[color][variant]}
